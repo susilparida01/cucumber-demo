@@ -1,0 +1,38 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Selenium/WebDriver artifacts
+*.har
+screenshots/
+test-output/
+
+# Environment files
+.env
+.env.*
