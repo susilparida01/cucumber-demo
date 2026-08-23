@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = "src/test/resources/features", // Path to the feature files
-    glue = {"stepsdefinitions"},              // Package name for step definitions
+    glue = {"com.simplilearn.cucumberdemo.stepdefinitions"},              // Package name for step definitions
     plugin = {"pretty", "html:target/cucumber-reports.html"}, // Reporting options
     monochrome = true                       // Makes console output more readable
 
